@@ -1,0 +1,20 @@
+%change taget directory to initialized repository.
+
+git init
+
+%reflect adding or fixing to local repository.
+%%[first] list target file to commit-index.
+
+git add *
+
+%%[second] add target file indexed to local repository.
+
+git commit -m "[insert comment]"
+
+%connect local repository to remote repository.
+
+git remote add origin https://github.com/[insert username]/[insert remote repository name].git
+
+%reflect master branch in local repository to remote repository.
+
+git push origin master
